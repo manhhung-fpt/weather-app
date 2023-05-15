@@ -29,7 +29,7 @@ export function Weather() {
             }
         };
     };
-    const getWeatherIcon = (iconCode) => {
+    const getWeatherIcon = (iconCode: string) => {
         return `https://openweathermap.org/img/w/${iconCode}.png`;
     };
 
